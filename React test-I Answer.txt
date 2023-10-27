@@ -1,0 +1,81 @@
+1.What is React?
+*React is a javascript library and it is a open source web application.
+* It allows you to create reusable UI components,manage the rendering of those components and handle the state  of your application.
+* It is mainly used in single page web application.                        
+2.What is Component?
+*Component is a reusability of piece of code.
+*Component is classified into two types:
+	*Class Componen
+	*Function  Component               
+3.Write function Syntax:
+import React from 'react'
+const 	Home=()=>{
+  return(
+  <div>
+  </div>
+   )
+   }
+   export default Home;
+4.Write Class Syntax:
+import React from 'react'
+import {Component} from 'react'
+class Home extends Component{
+render(){
+return(
+<div>
+</div>
+)
+}
+}
+export default Home;
+5.Write example of internal style.
+import React from 'react'
+const About=()=>{
+const  para={
+backgroundColor:"blue",
+fontFamily:"century",
+textAlign:"center"
+}
+return(
+<div>
+<p style={para}>React Js</p>
+</div>
+)
+}
+export default About;
+6.What is  JSX?
+    *JSX is used to write HTML in React.
+	*JSX stands for Javascript XML.
+7.What are the advantages of react?
+     *Virtual DOM
+	 *Single page web application.
+	 *Component based architecture.
+	 *JSX
+	  *Flexibility	 
+8.Difference between virtual DOM and real DOM
+virtual DOM:
+                       * It checks the specific component to modify it.
+Real DOM:
+                      * It checks the code, by line by line.		
+9.Write any three packages.
+     * npm i react-icons
+     * npm i scss
+     * npm i slick-carousel	           
+10.What is props?
+    * Props is a object.
+	* It describes the parent-child relationship.
+    * Parent component is used to access the data on child component.
+				   
+				  
+				 
+           
+
+
+	
+
+
+
+				
+				
+						  
+                                    
